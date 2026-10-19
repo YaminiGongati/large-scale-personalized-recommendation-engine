@@ -5,8 +5,6 @@
 This project develops a personalized movie recommendation prototype using the MovieLens 25M dataset. It recommends movies to users based on historical ratings, item similarity, and predicted user preferences.
 
 ## 2. Architecture Diagram
-## Architecture Diagram
-
 ![Recommendation Engine Architecture](architecture_diagram.png)
 ## 3. Technologies Used
 
