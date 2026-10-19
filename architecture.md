@@ -5,24 +5,9 @@
 This project develops a personalized movie recommendation prototype using the MovieLens 25M dataset. It recommends movies to users based on historical ratings, item similarity, and predicted user preferences.
 
 ## 2. Architecture Diagram
-'''mermaid
-flowchart TD
-    A["MovieLens 25M Dataset"] --> B["Data Cleaning"]
-    B --> C["Time-Based Train/Test Split"]
-    C --> D["Popularity Baseline"]
-    C --> E["User-Item Interaction Matrix"]
-    E --> F["TruncatedSVD Embeddings"]
-    F --> G["FAISS Similarity Search"]
-    G --> H["Candidate Movie Retrieval"]
-    H --> I["HistGradientBoosting Ranking Model"]
-    D --> J["Model Evaluation"]
-    I --> J
-    J --> K["Recall@10 and NDCG@10"]
-    I --> L["Ranked Movie Recommendations CSV"]
-    K --> M["Evaluation Results CSV"]
-    L --> N["GitHub Project Outputs"]
-    M --> N
-    '''
+## Architecture Diagram
+
+![Recommendation Engine Architecture](architecture_diagram.png)
 ## 3. Technologies Used
 
 - Python
