@@ -5,7 +5,7 @@
 This project develops a personalized movie recommendation prototype using the MovieLens 25M dataset. It recommends movies to users based on historical ratings, item similarity, and predicted user preferences.
 
 ## 2. Architecture Diagram
-
+'''mermaid
 flowchart TD
     A["MovieLens 25M Dataset"] --> B["Data Cleaning"]
     B --> C["Time-Based Train/Test Split"]
@@ -22,6 +22,7 @@ flowchart TD
     K --> M["Evaluation Results CSV"]
     L --> N["GitHub Project Outputs"]
     M --> N
+    '''
 ## 3. Technologies Used
 
 - Python
