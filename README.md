@@ -50,6 +50,7 @@ candidate-generation and evaluation rules.
 - model_comparison.csv
 - personalized_recommendations.csv
 - ranked_recommendations.csv
+  
 ##How to Run
 1.Open the project notebook in Google Colab.
 2.Download the MovieLens 25M dataset from the official GroupLens website (https://grouplens.org/datasets/movielens/25m/).
